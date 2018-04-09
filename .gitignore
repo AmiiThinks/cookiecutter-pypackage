@@ -81,11 +81,13 @@ coverage.xml
 docs/_build/
 
 # IntelliJ Idea family of suites
-.idea
+.idea # can be checked in as long as .idea/workspace.xml is not
 *.iml
 ## File-based project format:
 *.ipr
 *.iws
+*.wpr # WING IDE
+
 ## mpeltonen/sbt-idea plugin
 .idea_modules/
 
@@ -95,3 +97,5 @@ target/
 # Cookiecutter
 output/
 python_boilerplate/
+
+

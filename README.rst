@@ -11,7 +11,8 @@ Cookiecutter PyPackage
 
 Cookiecutter_ template for a Python package.
 
-* GitHub repo: https://github.com/audreyr/cookiecutter-pypackage/
+* GitHub repo: https://github.com/AmiiThinks/cookiecutter-pypackage/
+* Original GitHub repo: https://github.com/audreyr/cookiecutter-pypackage/
 * Documentation: https://cookiecutter-pypackage.readthedocs.io/
 * Free software: BSD license
 
@@ -53,7 +54,7 @@ Cookiecutter 1.4.0 or higher)::
 
 Generate a Python package project::
 
-    cookiecutter https://github.com/audreyr/cookiecutter-pypackage.git
+    cookiecutter https://github.com/AmiiThinks/cookiecutter-pypackage.git
 
 Then:
 
@@ -79,7 +80,8 @@ For more details, see the `cookiecutter-pypackage tutorial`_.
 Not Exactly What You Want?
 --------------------------
 
-Don't worry, you have options:
+Feel free to fork your own, but for changes that we want to implement across all our packaging, 
+submit an issue or pull request here!
 
 Similar Cookiecutter Templates
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -111,13 +113,6 @@ be a fork.
 
 * It's up to you whether or not to rename your fork/own version. Do whatever
   you think sounds good.
-
-Or Submit a Pull Request
-~~~~~~~~~~~~~~~~~~~~~~~~
-
-I also accept pull requests on this, if they're small, atomic, and if they
-make my own packaging experience better.
-
 
 .. _Travis-CI: http://travis-ci.org/
 .. _Tox: http://testrun.org/tox/

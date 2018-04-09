@@ -80,12 +80,16 @@ coverage.xml
 # Sphinx documentation
 docs/_build/
 
+docs/site/
+
 # IntelliJ Idea family of suites
-.idea
+.idea # can be checked in as long as .idea/workspace.xml is not
 *.iml
 ## File-based project format:
 *.ipr
 *.iws
+*.wpr # WING IDE
+
 ## mpeltonen/sbt-idea plugin
 .idea_modules/
 
@@ -95,3 +99,17 @@ target/
 # Cookiecutter
 output/
 python_boilerplate/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Temporary files
+*.swp
+*~
+
+
+# virtual env
+.env
+.venv
+venv/
+ENV/
